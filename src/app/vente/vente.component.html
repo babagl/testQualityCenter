@@ -1,0 +1,17 @@
+
+<div class="venteContainer">
+    <dx-data-grid [dataSource]="vente" id="gridContainer"
+[columnAutoWidth]="true"
+[showBorders]="true">
+<dxo-search-panel
+    [visible]="true"
+    [width]="240"
+    placeholder="Search..."
+  ></dxo-search-panel>
+<dxi-column cssClass="employee" [width]="200" dataField="date_de_commande" ></dxi-column>
+<dxi-column [width]="250" dataField="nom_du_vendeur" ></dxi-column>
+<dxi-column [width]="250" dataField="numero_commande" ></dxi-column>
+<dxi-column [width]="200" dataField="type_vente" ></dxi-column>
+
+</dx-data-grid>
+</div>

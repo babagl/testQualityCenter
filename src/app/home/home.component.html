@@ -1,0 +1,35 @@
+<div class="headerContainer">
+    <div class="logoContainer">
+        <img src="../../assets/images/logo.png" alt="" srcset="">
+    </div>
+    <div class="elementsContainer">
+        <div class="cloche"><img src="../../assets/images/notification-icon.png" style="height: 50px;" srcset=""></div>
+        <div class="profil"><img src="https://www.shutterstock.com/shutterstock/photos/1677509740/display_1500/stock-vector-default-avatar-profile-icon-social-media-user-vector-1677509740.jpg" style="height: 50px;" srcset=""></div>
+        <div class="profilContainer">
+            <div class="textProfilContainer">
+                <h4 class="nomResponsable">Mouhamed Gueye</h4>
+                <h4 class="resp">Responsable SI</h4>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="dashboard">
+    <div class="side-nav">
+        <div class="apercu" (click)="onNavigateByApercu()">
+            <img src="../../assets/images/aperçu-bleu-menu-icon.png" alt="" class="imageApercu">
+            <h3 class="transparant">Apercu</h3>
+        </div>
+        <div class="vente" (click)="onNavigateByVente()">
+            <img src="../../assets/images/ventes-blue-menu-icon.png" alt="" class="imageApercu">
+            <h3 class="transparant">Vente</h3>
+        </div>
+        <div class="analyse" (click)="featureNotImplemented()">
+            <img src="../../assets/images/analyses-gris-menu-icon.png" alt="" class="imageApercu">
+            <h3 class="transparant">Analyse</h3>
+        </div>
+    </div>
+    <div class="containerDashBoard">
+        <router-outlet></router-outlet>
+    </div>
+</div>

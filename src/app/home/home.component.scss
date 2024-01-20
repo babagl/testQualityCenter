@@ -1,0 +1,117 @@
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.elementsContainer{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    width: 300px;
+    justify-content: space-between;
+
+}
+
+.profilContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.profil{
+    align-self: center;
+}
+.nomResponsable{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.resp{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.logoContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoContainer img{
+    max-width: 100px;
+}
+.cloche{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.side-nav{
+    width: 200px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.apercu{
+    border-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.vente{
+    border-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.analyse{
+    border-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.apercu img{
+    max-width: 30px;
+    max-height: 30px;
+    align-self: center;
+    justify-self: center;
+    background-color: transparent;
+}
+
+.transparant{
+    background-color: transparent;
+
+}
+
+.vente img{
+    max-width: 30px;
+    max-height: 30px;
+    align-self: center;
+    justify-self: center;
+    background-color: transparent;
+}
+
+.analyse img{
+    max-width: 30px;
+    max-height: 30px;
+    align-self: center;
+    justify-self: center;
+    background-color: transparent;
+}
+
+.dashboard{
+    display: flex;
+}
+.containerDashBoard{
+    padding: 1rem;
+    max-width: 1000px;
+    max-height: 1000px;
+}
+.textProfilContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

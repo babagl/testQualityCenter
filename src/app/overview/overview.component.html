@@ -1,0 +1,13 @@
+<dx-chart
+  id="chart"
+  title="Vente"
+  [dataSource]="venteValue"
+>
+  <dxo-legend [visible]="false"></dxo-legend>
+  <dxi-series type="bar"></dxi-series>
+  <dxo-argument-axis [tickInterval]="10">
+    <dxo-label>
+      <dxo-format type="decimal"></dxo-format>
+    </dxo-label>
+  </dxo-argument-axis>
+</dx-chart>
